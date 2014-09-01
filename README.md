@@ -31,4 +31,8 @@ Run `npm install hubot-motivate`
 ```
 user1> !m user1
 Hubot> You're doing great work user1!
+user1> !thank user1
+Hubot> You're doing great work user1!
+user1> !thanks user1
+Hubot> You're doing great work user1!
 ```

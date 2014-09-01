@@ -12,5 +12,5 @@ describe 'motivate', ->
 
     require('../src/motivate')(@robot)
 
-  it 'registers a hear listener for !m', ->
-    expect(@robot.hear).to.have.been.calledWith(/!m (.*)$/i)
+  it 'registers a hear listener for !m|!thank|!thanks', ->
+    expect(@robot.hear).to.have.been.calledWith(/^!(m|than(k|ks)) (.+)$/i)
