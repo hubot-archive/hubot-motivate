@@ -2,6 +2,8 @@
 
 A motivate wrapper for Hubots.
 
+[![Build Status](https://travis-ci.org/hubot-scripts/hubot-motivate.png)](https://travis-ci.org/hubot-scripts/hubot-motivate)
+
 See [`src/motivate.coffee`](src/motivate.coffee) for full documentation.
 
 ## Installation
