@@ -8,6 +8,8 @@
 #   None
 #
 # Commands:
+#   !h5 <username> - Hubot gives the user a high five
+#   ^5 <username> - Hubot gives the user a high five
 #   !m <username> - Hubot encourages your user
 #   !thank <username> - Hubot encourages your user
 #   !thanks <username> - Hubot encourages your user
@@ -30,4 +32,9 @@ module.exports = (robot) ->
         ]
 
     msg.send msg.random praise
+
+  robot.hear /^(!h5|\^5) (.+)$/i, (msg) ->
+    user = msg.match[2]
+
+    msg.emote "high fives #{user}"
 
