@@ -1,7 +1,7 @@
 {
   "name": "hubot-motivate",
   "description": "A hubot script ported from http://motivate.im",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "JJ Asghar <jjasghar@gmail.com>",
   "license": "MIT",
 
