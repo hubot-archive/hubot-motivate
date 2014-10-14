@@ -36,7 +36,7 @@ Hubot> You're doing great work user1!
 user1> !thanks user1
 Hubot> You're doing great work user1!
 user1> !h5 user1
-Hubot high fives user1
+Hubot> high fives user1
 user1> ^5 user1
-Hubot high fives user1
+Hubot> high fives user1
 ```
